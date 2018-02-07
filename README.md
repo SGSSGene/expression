@@ -1,10 +1,10 @@
 # Expression
 
 ## Note:
-This work is “Recreational C++” ( Alisdair Meredith  - https://www.youtube.com/watch?v=ovxNM865WaU )
+This work is “Recreational C++” ( Alisdair Meredith - https://www.youtube.com/watch?v=ovxNM865WaU )
 
 ## Inspiration:
-This is inspired by André Bergner talk nhttps://www.youtube.com/watch?v=QYNRoeWJuAw.
+This is inspired by André Bergner talk https://www.youtube.com/watch?v=QYNRoeWJuAw .
 The goal is to capture expressions and automatically propagate changes through different variables.
 
 ## Example
