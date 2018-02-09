@@ -45,7 +45,7 @@ struct minus {
         return l-r;
     }
 };
-struct devide {
+struct divide {
     template <typename T1, typename T2>
     auto operator()(T1 l, T2 r) {
         return l/r;
@@ -175,7 +175,7 @@ auto operator op(Expression<T1, Args1...> l, Expression<T2, Args2...> r) { \
 OPERATOR(*, multiplies)
 OPERATOR(+, plus)
 OPERATOR(-, minus)
-OPERATOR(/, devide)
+OPERATOR(/, divide)
 
 Expression<double> operator "" _v(long double x) {
     return Expression<double>{static_cast<double>(x)};
